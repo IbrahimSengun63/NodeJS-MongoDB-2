@@ -1,0 +1,118 @@
+
+1.)
+                                            
+                                        ONECASH                                                 HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                             (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ                ARACI(PRIVATE KEY)=APT    ARACI BİLGİLERİ           SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                                          SİSTEM(ARACI PUBLİC KEY)=SAPK+
+
+
+
+ 2.)
+                                            
+                                        ONECASH                                                   HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                                (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ+(KPT)=ŞİFRE1 ==>   ARACI(PRIVATE KEY)=APT   ARACI BİLGİLERİ              SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                   ŞİFRE1                       SİSTEM(ARACI PUBLİC KEY)=SAPK+      
+
+
+3.)
+                                            
+                                        ONECASH                                                   HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                                (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ+(KPT)=ŞİFRE1 ==>   ARACI(PRIVATE KEY)=APT   ARACI BİLGİLERİ                  SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                   ŞİFRE1                           SİSTEM(ARACI PUBLİC KEY)=SAPK+
+                                                                                                   ARACI BİLGİLERİ + APT = ŞİFRE2
+
+
+4.)
+                                            
+                                        ONECASH                                                   HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                                (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ+(KPT)=ŞİFRE1 ==>   ARACI(PRIVATE KEY)=APT   ARACI BİLGİLERİ                  SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                   ŞİFRE1                           SİSTEM(ARACI PUBLİC KEY)=SAPK+
+                                                                                                   ARACI BİLGİLERİ + APT = ŞİFRE2
+                                                                                                   ŞİFRE1 + ŞİFRE2 = ŞİFRE3
+
+
+5.)
+                                            
+                                        ONECASH                                                   HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                                (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ+(KPT)=ŞİFRE1 ==>   ARACI(PRIVATE KEY)=APT   ARACI BİLGİLERİ                      SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                   ŞİFRE1                               SİSTEM(ARACI PUBLİC KEY)=SAPK+
+                                                                                                   ARACI BİLGİLERİ + APT = ŞİFRE2
+                                                                                                   ŞİFRE1 + ŞİFRE2 = ŞİFRE3 ==>             ŞİFRE3 
+
+
+7.)
+                                            
+                                        ONECASH                                                   HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                                (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ+(KPT)=ŞİFRE1 ==>   ARACI(PRIVATE KEY)=APT   ARACI BİLGİLERİ                      SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                   ŞİFRE1                               SİSTEM(ARACI PUBLİC KEY)=SAPK+
+                                                                                                   ARACI BİLGİLERİ + APT = ŞİFRE2
+                                                                                                   ŞİFRE1 + ŞİFRE2 = ŞİFRE3 ==>             ŞİFRE3 - (SAPK+) = ŞİFRE1 + ARACI BİLGİLERİ
+
+
+8.)
+                                            
+                                        ONECASH                                                   HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                                (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ+(KPT)=ŞİFRE1 ==>   ARACI(PRIVATE KEY)=APT   ARACI BİLGİLERİ                      SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                   ŞİFRE1                               SİSTEM(ARACI PUBLİC KEY)=SAPK+
+                                                                                                   ARACI BİLGİLERİ + APT = ŞİFRE2
+                                                                                                   ŞİFRE1 + ŞİFRE2 = ŞİFRE3 ==>             ŞİFRE3 - (SAPK+) = ŞİFRE1 + ARACI BİLGİLERİ
+                                                                                                                                            ŞİFRE1 - (SKPK+) = KULLANICI BİLGİLERİ + ARACI BİLGİLERİ
+
+
+9.)
+                                            
+                                        ONECASH                                                   HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                                (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ+(KPT)=ŞİFRE1 ==>   ARACI(PRIVATE KEY)=APT   ARACI BİLGİLERİ                      SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                   ŞİFRE1                               SİSTEM(ARACI PUBLİC KEY)=SAPK+
+                                                                                                   ARACI BİLGİLERİ + APT = ŞİFRE2
+                                                                                                   ŞİFRE1 + ŞİFRE2 = ŞİFRE3 ==>             ŞİFRE3 - (SAPK+) = ŞİFRE1 + ARACI BİLGİLERİ
+                                                                                                                                            ŞİFRE1 - (SKPK+) = KULLANICI BİLGİLERİ + ARACI BİLGİLERİ
+
+                                                                                                                                            <<= KULLANCI BİLGİLERİ + (SAPK+) = DECODE1
+
+
+10.)
+                                            
+                                        ONECASH                                                   HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                                (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ+(KPT)=ŞİFRE1 ==>   ARACI(PRIVATE KEY)=APT   ARACI BİLGİLERİ                      SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                   ŞİFRE1                               SİSTEM(ARACI PUBLİC KEY)=SAPK+
+                                                                                                   ARACI BİLGİLERİ + APT = ŞİFRE2
+                                                                                                   ŞİFRE1 + ŞİFRE2 = ŞİFRE3 ==>             ŞİFRE3 - (SAPK+) = ŞİFRE1 + ARACI BİLGİLERİ
+                                                                                                                                            ŞİFRE1 - (SKPK+) = KULLANICI BİLGİLERİ + ARACI BİLGİLERİ
+
+                                                                                                    DECODE1                                 <<= KULLANCI BİLGİLERİ + (SAPK+) = DECODE1
+
+
+11.)
+                                            
+                                        ONECASH                                                   HEPSIBURADA                                   ONECASH
+                                        (KULLANICI)                                                (ARACI)                                       (SİSTEM)
+                                             
+OC(KULLANICI PRİVATE KEY)=KPT      KULLANICI BİLGİLERİ+(KPT)=ŞİFRE1 ==>   ARACI(PRIVATE KEY)=APT   ARACI BİLGİLERİ                      SİSTEM(KULLANICI PUBLİC KEY)=SKPK+
+                                                                                                   ŞİFRE1                               SİSTEM(ARACI PUBLİC KEY)=SAPK+
+                                                                                                   ARACI BİLGİLERİ + APT = ŞİFRE2
+                                                                                                   ŞİFRE1 + ŞİFRE2 = ŞİFRE3 ==>             ŞİFRE3 - (SAPK+) = ŞİFRE1 + ARACI BİLGİLERİ
+                                                                                                                                            ŞİFRE1 - (SKPK+) = KULLANICI BİLGİLERİ + ARACI BİLGİLERİ
+
+                                                                                                    DECODE1                                 <<= KULLANCI BİLGİLERİ + (SAPK+) = DECODE1
+                                                                                                    DECODE1 - APT = KULLANICI BİLGİLERİ
+
+

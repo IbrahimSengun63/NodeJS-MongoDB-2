@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta name="charset" content="charset=UTF-8">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="main-box" style="min-height: 1000px;">
+            <div id="table">
+
+                <% if (user != undefined) { %>
+                 
+                    <ul>
+                    
+                    <li style="color: crimson;">User: <%- user.username %></li>
+
+                    <a href="/wallet">
+                        <li>create wallet</li>
+                    </a>
+                    </ul>
+
+                <% } else { %> 
+
+                
+                 
+                    <ul>
+                        <a href="/login">
+                            <li>Giriş Yap</li>
+                        </a>
+                        <a href="/register">
+                            <li>Kayıt Ol</li>
+                        </a>
+                    </ul>
+
+                <% } %> 
+
+
+                
+            </div>
+
+            <%-body-%>
+
+        </div>
+    </body>
+</html>
